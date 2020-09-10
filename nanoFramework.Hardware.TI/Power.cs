@@ -33,12 +33,28 @@ namespace nanoFramework.Hardware.TI
             System.Threading.Thread.Sleep(System.Threading.Timeout.Infinite);
         }
 
+        /// <summary>
+        /// Setup wakeup configuration from GPIO pins.
+        /// </summary>
+        /// <param name="pinWakeupConfig">Array of <see cref="PinWakeupConfig"/> with the configuration for the GPIO pins.</param>
+        /// <remarks>
+        /// This method is used to setup the wakeup configuration from GPIO pins.
+        /// If there is a need to make furhter changes to the configuration just call this method again with the new configuration.
+        /// There is no storage for the configuration nor any method to query the existing configuration, if any.
+        /// If a GPIO pin has been setup with a wakeup configuration and that needs to be removed, it should be added to the new configuration
+        /// array with <see cref="PinWakeupEdge.None"/>.
+        /// </remarks>
+        [MethodImpl(MethodImplOptions.InternalCall)]
+#pragma warning disable S4200 // OK to call native method directly
+        public static extern void ConfigureWakeupFromGpioPin(PinWakeupConfig[] pinWakeupConfig);
+#pragma warning restore S4200 // Native methods should be wrapped
+
         #region native methods calls
 
         /// <summary>
-        /// Gets the reason for device wakeup.
+        /// Gets the reset source.
         /// </summary>
-        public static extern WakeupReasonType WakeupReason
+        public static extern ResetSource SourceOfReset
         {
             [MethodImpl(MethodImplOptions.InternalCall)]
             get;

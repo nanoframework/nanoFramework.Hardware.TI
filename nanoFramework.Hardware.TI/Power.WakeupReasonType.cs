@@ -8,24 +8,54 @@ namespace nanoFramework.Hardware.TI
     public partial class Power
     {
         /// <summary>
-        /// Wakeup reason enumeration.
+        /// Source of system reset.
         /// </summary>
-        public enum WakeupReasonType
+        public enum ResetSource : byte
         {
             /// <summary>
-            /// Undetermined wakeup reason.
+            /// Power-on reset.
             /// </summary>
-            Undetermined = 0,
+            PowerOn = 0,
 
             /// <summary>
-            /// Wakeup from shudown mode.
+            /// Reset pin.
             /// </summary>
-            FromShutdown,
+            ResetPin,
 
             /// <summary>
-            /// Wakeup from pin.
+            /// VDDS failure.
             /// </summary>
-            FromPin
+            VddsFailure,
+
+            /// <summary>
+            /// VDDR failure.
+            /// </summary>
+            VddrFailure,
+
+            /// <summary>
+            /// Clock loss detected.
+            /// </summary>
+            ClockLoss,
+
+            /// <summary>
+            /// Software initiated system reset.
+            /// </summary>
+            SoftwareReset,
+
+            /// <summary>
+            /// Warm reset.
+            /// </summary>
+            WarmReset,
+
+            /// <summary>
+            /// System wakeup from shutdown.
+            /// </summary>
+            WakeupFromShutdown,
+
+            /// <summary>
+            /// Detected noise on TCK pin.
+            /// </summary>
+            NoiseOnTck
         }
     }
 }

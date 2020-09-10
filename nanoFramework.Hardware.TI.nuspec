@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>nanoFramework.Hardware.Stm32</id>
+    <id>nanoFramework.Hardware.TI</id>
     <version>$version$</version>
-    <title>nanoFramework.Hardware.Stm32</title>
+    <title>nanoFramework.Hardware.TI</title>
     <authors>nanoFramework project contributors</authors>
     <owners>nanoFramework project contributors</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
@@ -11,24 +11,24 @@
     <releaseNotes>
     </releaseNotes>
     <developmentDependency>false</developmentDependency>
-    <projectUrl>https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32</projectUrl>
+    <projectUrl>https://github.com/nanoframework/lib-nanoFramework.Hardware.TI</projectUrl>
     <iconUrl>https://secure.gravatar.com/avatar/97d0e092247f0716db6d4b47b7d1d1ad</iconUrl>
-    <repository type="git" url="https://github.com/nanoframework/lib-nanoFramework.Hardware.Stm32" commit="$commit$" />
-    <copyright>Copyright (c) 2018 The nanoFramework project contributors</copyright>
-    <description>This package includes the nanoFramework.Hardware.Stm32 assembly for nanoFramework C# projects.
-This package requires a target with nanoFramework.Hardware.Stm32 v$nativeVersion$.</description>
-    <summary>nanoFramework.Hardware.Stm32 assembly for nanoFramework C# projects</summary>
-    <tags>nanoFramework C# csharp netmf netnf nanoFramework.Hardware.Stm32</tags>
+    <repository type="git" url="https://github.com/nanoframework/lib-nanoFramework.Hardware.TI" commit="$commit$" />
+    <copyright>Copyright (c) 2020 The nanoFramework project contributors</copyright>
+    <description>This package includes the nanoFramework.Hardware.TI assembly for nanoFramework C# projects.
+This package requires a target with nanoFramework.Hardware.TI v$nativeVersion$.</description>
+    <summary>nanoFramework.Hardware.TI assembly for nanoFramework C# projects</summary>
+    <tags>nanoFramework C# csharp netmf netnf nanoFramework.Hardware.TI</tags>
     <dependencies>
       <dependency id="nanoFramework.CoreLibrary" version="1.7.3" />
     </dependencies>
   </metadata>
   <files>
-    <file src="nanoFramework.Hardware.Stm32\bin\Release\nanoFramework.Hardware.Stm32.dll" target="lib\nanoFramework.Hardware.Stm32.dll" />
-    <file src="nanoFramework.Hardware.Stm32\bin\Release\nanoFramework.Hardware.Stm32.pdb" target="lib\nanoFramework.Hardware.Stm32.pdb" />
-    <file src="nanoFramework.Hardware.Stm32\bin\Release\nanoFramework.Hardware.Stm32.pdbx" target="lib\nanoFramework.Hardware.Stm32.pdbx" />
-    <file src="nanoFramework.Hardware.Stm32\bin\Release\nanoFramework.Hardware.Stm32.pe" target="lib\nanoFramework.Hardware.Stm32.pe" />
-    <file src="nanoFramework.Hardware.Stm32\bin\Release\nanoFramework.Hardware.Stm32.xml" target="lib\nanoFramework.Hardware.Stm32.xml" />
+    <file src="nanoFramework.Hardware.TI\bin\Release\nanoFramework.Hardware.TI.dll" target="lib\nanoFramework.Hardware.TI.dll" />
+    <file src="nanoFramework.Hardware.TI\bin\Release\nanoFramework.Hardware.TI.pdb" target="lib\nanoFramework.Hardware.TI.pdb" />
+    <file src="nanoFramework.Hardware.TI\bin\Release\nanoFramework.Hardware.TI.pdbx" target="lib\nanoFramework.Hardware.TI.pdbx" />
+    <file src="nanoFramework.Hardware.TI\bin\Release\nanoFramework.Hardware.TI.pe" target="lib\nanoFramework.Hardware.TI.pe" />
+    <file src="nanoFramework.Hardware.TI\bin\Release\nanoFramework.Hardware.TI.xml" target="lib\nanoFramework.Hardware.TI.xml" />
     <!-- readme -->
     <file src="readme.txt" target="readme.txt" />
   </files>
