@@ -24,7 +24,7 @@ namespace nanoFramework.Hardware.TI
         {
             if (_deviceIeeeAddress == null)
             {
-                NativeGetIeeeAddress();
+                _deviceIeeeAddress = NativeGetIeeeAddress();
             }
 
             return _deviceIeeeAddress;
@@ -33,7 +33,7 @@ namespace nanoFramework.Hardware.TI
         #region native methods calls
 
         [MethodImpl(MethodImplOptions.InternalCall)]
-        private static extern void NativeGetIeeeAddress();
+        private static extern byte[] NativeGetIeeeAddress();
 
         #endregion
     }
