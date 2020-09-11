@@ -2,7 +2,15 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/compare/b46678c365ace96c6164b204cae9c96431148760...HEAD)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/compare/v1.0.0-preview.2...HEAD)
+
+**Implemented enhancements:**
+
+- Add Utilities class [\#2](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/pull/2)
+
+## [v1.0.0-preview.2](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/tree/v1.0.0-preview.2) (2020-09-10)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/compare/b46678c365ace96c6164b204cae9c96431148760...v1.0.0-preview.2)
 
 **Implemented enhancements:**
 
