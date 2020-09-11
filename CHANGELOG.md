@@ -1,5 +1,9 @@
 # Changelog
 
+## [v1.0.0-preview.6](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/tree/v1.0.0-preview.6) (2020-09-11)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/compare/v1.0.0-preview.4...v1.0.0-preview.6)
+
 ## [v1.0.0-preview.4](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/tree/v1.0.0-preview.4) (2020-09-11)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/compare/v1.0.0-preview.2...v1.0.0-preview.4)
