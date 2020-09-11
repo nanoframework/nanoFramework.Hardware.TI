@@ -20,11 +20,11 @@ namespace nanoFramework.Hardware.TI
         /// <summary>
         /// Gets the IEEE Address.
         /// </summary>
-        public static byte[] IeeeAddress()
+        public static byte[] GetIeeeAddress()
         {
             if (_deviceIeeeAddress == null)
             {
-                _deviceIeeeAddress = NativeGetIeeeAddress();
+                NativeGetIeeeAddress();
             }
 
             return _deviceIeeeAddress;
@@ -33,7 +33,7 @@ namespace nanoFramework.Hardware.TI
         #region native methods calls
 
         [MethodImpl(MethodImplOptions.InternalCall)]
-        private static extern byte[] NativeGetIeeeAddress();
+        private static extern void NativeGetIeeeAddress();
 
         #endregion
     }
