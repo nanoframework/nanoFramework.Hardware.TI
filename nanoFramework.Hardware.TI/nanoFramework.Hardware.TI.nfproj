@@ -39,7 +39,7 @@
     </NFMDP_PE_ExcludeClassByName>
     <NFMDP_PE_ExcludeClassByName Include="ResetSource">
       <InProject>false</InProject>
-    </NFMDP_PE_ExcludeClassByName>    
+    </NFMDP_PE_ExcludeClassByName>
   </ItemGroup>
   <ItemGroup>
     <NFMDP_PE_LoadHints Include="..\packages\nanoFramework.CoreLibrary.1.7.3\lib\mscorlib.dll">
@@ -48,6 +48,7 @@
   </ItemGroup>
   <Import Project="$(NanoFrameworkProjectSystemPath)NFProjectSystem.props" Condition="Exists('$(NanoFrameworkProjectSystemPath)NFProjectSystem.props')" />
   <ItemGroup>
+    <Compile Include="Utilities.cs" />
     <Compile Include="Power.PinPullUpDown.cs" />
     <Compile Include="Power.PinWakeupEdge.cs" />
     <Compile Include="Power.PinWakeupConfig.cs" />
