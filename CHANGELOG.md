@@ -1,5 +1,17 @@
 # Changelog
 
+## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/tree/HEAD)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/compare/v1.0.0-preview.8...HEAD)
+
+**Implemented enhancements:**
+
+- Add EnterStandbyMode API [\#3](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/pull/3)
+
+## [v1.0.0-preview.8](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/tree/v1.0.0-preview.8) (2020-09-11)
+
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/compare/v1.0.0-preview.6...v1.0.0-preview.8)
+
 ## [v1.0.0-preview.6](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/tree/v1.0.0-preview.6) (2020-09-11)
 
 [Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/compare/v1.0.0-preview.4...v1.0.0-preview.6)
