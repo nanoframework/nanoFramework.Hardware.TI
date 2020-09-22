@@ -1,8 +1,8 @@
 # Changelog
 
-## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/tree/HEAD)
+## [v1.0.0-alpha.10](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/tree/v1.0.0-alpha.10) (2020-09-22)
 
-[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/compare/v1.0.0-preview.8...HEAD)
+[Full Changelog](https://github.com/nanoframework/lib-nanoFramework.Hardware.TI/compare/v1.0.0-preview.8...v1.0.0-alpha.10)
 
 **Implemented enhancements:**
 
