@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany(".NET nanoFramework")]
 [assembly: AssemblyProduct("nanoFramework Hardware TI")]
-[assembly: AssemblyCopyright("Copyright © 2020 .NET nanoFramework contributors")]
+[assembly: AssemblyCopyright("Copyright (c) .NET Foundation and Contributors")]
 
 ////////////////////////////////////////////////////////////////
 // update this whenever the native assembly signature changes //
