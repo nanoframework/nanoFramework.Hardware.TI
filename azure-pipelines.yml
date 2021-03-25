@@ -27,7 +27,7 @@ variables:
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
   nugetPackageName: 'nanoFramework.Hardware.TI'
-  repoName: 'lib-nanoFramework.Hardware.TI'
+  repoName: 'nanoFramework.Hardware.TI'
 
 steps:
 
