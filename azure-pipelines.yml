@@ -1,8 +1,8 @@
 trigger:
   branches:
-    include: [main, master, develop, "release-*" ]
+    include: [main, develop, "release-*" ]
   paths:
-    exclude: ["*.md", .gitignore]
+    exclude: [README.md,  CHANGELOG.md, CODE_OF_CONDUCT.md, LICENSE.md, NuGet.Config, .github_changelog_generator, .gitignore]
   tags:
     include: ["v*"]
 
@@ -23,11 +23,10 @@ pool:
 
 variables:
   DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
-  solution: '**/*.sln'
+  solution: 'nanoFramework.Hardware.TI.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
   nugetPackageName: 'nanoFramework.Hardware.TI'
-  repoName: 'nanoFramework.Hardware.TI'
 
 steps:
 

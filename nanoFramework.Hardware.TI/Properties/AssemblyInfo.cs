@@ -6,9 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("nanoFramework.Hardware.TI")]
-[assembly: AssemblyDescription("")]
-[assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany(".NET nanoFramework")]
+[assembly: AssemblyCompany(".NET nanoFramework Contributors")]
 [assembly: AssemblyProduct("nanoFramework Hardware TI")]
 [assembly: AssemblyCopyright("Copyright (c) .NET Foundation and Contributors")]
 
