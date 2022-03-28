@@ -2,7 +2,15 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/nanoFramework.Hardware.TI/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.TI/compare/v1.0.2-preview.11...HEAD)
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.TI/compare/v1.0.2-preview.13...HEAD)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#31](https://github.com/nanoframework/nanoFramework.Hardware.TI/pull/31)
+
+## [v1.0.2-preview.13](https://github.com/nanoframework/nanoFramework.Hardware.TI/tree/v1.0.2-preview.13) (2022-03-17)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.TI/compare/v1.0.2-preview.11...v1.0.2-preview.13)
 
 **Documentation and other chores:**
 
