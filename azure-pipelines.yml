@@ -39,7 +39,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
+  DOTNET_NOLOGO: true
   solution: 'nanoFramework.Hardware.TI.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'

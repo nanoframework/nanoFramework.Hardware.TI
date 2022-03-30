@@ -10,8 +10,7 @@
 
 | Component | Build Status | NuGet Package |
 |:-|---|---|
-| nanoFramework.Hardware.TI | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Hardware.TI/_apis/build/status/nanoframework.lib-nanoFramework.Hardware.TI?branchName=develop)](https://dev.azure.com/nanoframework/nanoFramework.Hardware.TI/_build/latest?definitionId=6?branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Hardware.TI.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Hardware.TI/)  |
-| nanoFramework.Hardware.TI (preview) | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Hardware.TI/_apis/build/status/nanoframework.lib-nanoFramework.Hardware.TI?branchName=develop)](https://dev.azure.com/nanoframework/nanoFramework.Hardware.TI/_build/latest?definitionId=6?branchName=develop) | [![NuGet](https://img.shields.io/nuget/vpre/nanoFramework.Hardware.TI.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Hardware.TI/)|
+| nanoFramework.Hardware.TI | [![Build Status](https://dev.azure.com/nanoframework/nanoFramework.Hardware.TI/_apis/build/status/nanoFramework.Hardware.TI?repoName=nanoframework%2FnanoFramework.Hardware.TI&branchName=main)](https://dev.azure.com/nanoframework/nanoFramework.Hardware.TI/_build/latest?definitionId=61&repoName=nanoframework%2FnanoFramework.Hardware.TI&branchName=main)| [![NuGet](https://img.shields.io/nuget/v/nanoFramework.Hardware.TI.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.Hardware.TI/)  |
 
 ## Feedback and documentation
 
