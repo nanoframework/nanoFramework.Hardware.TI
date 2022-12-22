@@ -1,5 +1,24 @@
 # Changelog
 
+## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/nanoFramework.Hardware.TI/tree/HEAD)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.TI/compare/v1.0.2...HEAD)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#36](https://github.com/nanoframework/nanoFramework.Hardware.TI/pull/36)
+- Update 1 NuGet dependencies [\#35](https://github.com/nanoframework/nanoFramework.Hardware.TI/pull/35)
+- Update 1 NuGet dependencies [\#34](https://github.com/nanoframework/nanoFramework.Hardware.TI/pull/34)
+
+## [v1.0.2](https://github.com/nanoframework/nanoFramework.Hardware.TI/tree/v1.0.2) (2022-03-28)
+
+[Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.TI/compare/v1.0.2-preview.15...v1.0.2)
+
+**Documentation and other chores:**
+
+- release-v1.0.2 [\#32](https://github.com/nanoframework/nanoFramework.Hardware.TI/pull/32)
+- release-v1.0.1 [\#25](https://github.com/nanoframework/nanoFramework.Hardware.TI/pull/25)
+
 ## [v1.0.2-preview.15](https://github.com/nanoframework/nanoFramework.Hardware.TI/tree/v1.0.2-preview.15) (2022-03-28)
 
 [Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.TI/compare/v1.0.2-preview.13...v1.0.2-preview.15)
@@ -67,6 +86,10 @@
 ## [v1.0.0](https://github.com/nanoframework/nanoFramework.Hardware.TI/tree/v1.0.0) (2021-07-15)
 
 [Full Changelog](https://github.com/nanoframework/nanoFramework.Hardware.TI/compare/v1.0.0-preview.47...v1.0.0)
+
+**Documentation and other chores:**
+
+- release-v1.0.0 [\#21](https://github.com/nanoframework/nanoFramework.Hardware.TI/pull/21)
 
 ## [v1.0.0-preview.47](https://github.com/nanoframework/nanoFramework.Hardware.TI/tree/v1.0.0-preview.47) (2021-07-14)
 
