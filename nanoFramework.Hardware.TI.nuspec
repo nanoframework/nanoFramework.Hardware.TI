@@ -19,18 +19,16 @@
 This package requires a target with nanoFramework.Hardware.TI v$nativeVersion$ (checksum $checksum$).</description>
     <tags>nanoFramework C# csharp netmf netnf</tags>
     <dependencies>
-      <dependency id="nanoFramework.CoreLibrary" version="2.0.0-preview.35" />
+      <group targetFramework=".NETnanoFramework1.0">
+        <dependency id="nanoFramework.CoreLibrary" version="2.0.0-preview.35" />
+      </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="nanoFramework.Hardware.TI\bin\Release\nanoFramework.Hardware.TI.dll" target="lib\nanoFramework.Hardware.TI.dll" />
-    <file src="nanoFramework.Hardware.TI\bin\Release\nanoFramework.Hardware.TI.pdb" target="lib\nanoFramework.Hardware.TI.pdb" />
-    <file src="nanoFramework.Hardware.TI\bin\Release\nanoFramework.Hardware.TI.pdbx" target="lib\nanoFramework.Hardware.TI.pdbx" />
-    <file src="nanoFramework.Hardware.TI\bin\Release\nanoFramework.Hardware.TI.pe" target="lib\nanoFramework.Hardware.TI.pe" />
-    <file src="nanoFramework.Hardware.TI\bin\Release\nanoFramework.Hardware.TI.xml" target="lib\nanoFramework.Hardware.TI.xml" />
-    <file src="assets\readme.txt" target="" />
     <file src="README.md" target="docs\" />
-    <file src="assets\nf-logo.png" target="images" />
+    <file src="assets\readme.txt" target="" />
     <file src="LICENSE.md" target="" />
+    <file src="assets\nf-logo.png" target="images" />
+    <file src="nanoFramework.Hardware.TI\bin\Release\nanoFramework.Hardware.TI.*" target="lib\netnano1.0" />
   </files>
 </package>
